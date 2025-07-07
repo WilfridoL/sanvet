@@ -1,0 +1,88 @@
+{
+  "producto": [
+    {
+    "id": 1,
+    "tag": "Alimentos",
+    "nombre_producto": "Dog Chow Adulto Razas Medianas 4kg",
+    "precio": "$45.000",
+    "img": "../img/productos/img-producto-1.jpg"
+  },
+  {
+    "id": 2,
+    "tag": "Alimentos",
+    "nombre_producto": "Cat Chow Gatos Esterilizados 1.5kg",
+    "precio": "$38.000",
+    "img": "../img/productos/img-producto-2.jpg"
+  },
+  {
+    "id": 3,
+    "tag": "Juguetes",
+    "nombre_producto": "Pelota con sonido para perro mediano",
+    "precio": "$12.000",
+    "img": "../img/productos/img-producto-3.jpg"
+  },
+  {
+    "id": 4,
+    "tag": "Juguetes",
+    "nombre_producto": "Ratón de tela con catnip para gato",
+    "precio": "$8.500",
+    "img": "../img/productos/img-producto-4.jpg"
+  },
+  {
+    "id": 5,
+    "tag": "Accesorios",
+    "nombre_producto": "Collar ajustable con diseño huesitos",
+    "precio": "$15.000",
+    "img": "../img/productos/img-producto-5.webp"
+  },
+  {
+    "id": 6,
+    "tag": "Accesorios",
+    "nombre_producto": "Comedero de acero inoxidable mediano",
+    "precio": "$17.500",
+    "img": "../img/productos/img-producto-6.webp"
+  },
+  {
+    "id": 7,
+    "tag": "Suplementos",
+    "nombre_producto": "Multivitamínico líquido para perros",
+    "precio": "$22.000",
+    "img": "../img/productos/img-producto-7.webp"
+  },
+  {
+    "id": 8,
+    "tag": "Suplementos",
+    "nombre_producto": "Omega 3-6-9 en cápsulas (90 unidades)",
+    "precio": "$34.000",
+    "img": "../img/productos/img-producto-8.webp"
+  },
+  {
+    "id": 9,
+    "tag": "Alimentos",
+    "nombre_producto": "Royal Canin Gastrointestinal 2kg",
+    "precio": "$58.000",
+    "img": "../img/productos/img-producto-9.jpg"
+  },
+  {
+    "id": 10,
+    "tag": "Accesorios",
+    "nombre_producto": "Cama redonda pequeña para gato",
+    "precio": "$40.000",
+    "img": "../img/productos/img-producto-10.webp"
+  },
+  {
+    "id": 11,
+    "tag": "Juguetes",
+    "nombre_producto": "Cuerda trenzada resistente para morder",
+    "precio": "$10.000",
+    "img": "../img/productos/img-producto-11.webp"
+  },
+  {
+    "id": 12,
+    "tag": "Suplementos",
+    "nombre_producto": "Suplemento articular con glucosamina",
+    "precio": "$29.000",
+    "img": "../img/productos/img-producto-12.webp"
+  }
+  ]
+}

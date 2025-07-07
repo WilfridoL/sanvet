@@ -1,0 +1,102 @@
+.boton_cita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 30px;
+  right: 60px;
+}
+
+.boton_cita button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+  color: var(--bck);
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.boton_cita p {
+  position: absolute;
+  display: none;
+  background: var(--yellow);
+  color: var(--bck);
+  right: 40px;
+  text-wrap: nowrap;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+.boton_cita:hover p {
+  display: inline;
+}
+
+.pedir_cita form {
+  display: none;
+  width: 400px;
+  padding: 30px 60px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: .7px solid var(--green);
+  background: var(--bck);
+  font-size: 16px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 30px;
+  right: 60px;
+  z-index: 10;
+
+  &.form_active {
+    display: flex;
+  }
+}
+
+.pedir_cita form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pedir_cita form label {
+  margin-bottom: 10px;
+}
+
+.pedir_cita form input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: .7px solid var(--green);
+  padding: 5px 6px;
+  margin-bottom: 16px;
+}
+
+.pedir_cita form .pepe {
+  width: 40%;
+}
+
+.pedir_cita form .input_juntos {
+  display: flex;
+  gap: 30px;
+}
+
+.pedir_cita form button {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background: var(--green);
+  color: var(--bck);
+  font-weight: 500;
+  border-color: var(--green);
+  cursor: pointer;
+}
+
+.pedir_cita .btn-salida {
+  position: absolute;
+  top: 16px;
+  right: 30px;
+  font-size: 24px;
+  color: var(--orange);
+  cursor: pointer;
+}

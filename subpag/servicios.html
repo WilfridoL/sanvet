@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SanVet</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="shortcut icon" href="../img/logo_vet.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="contenedor">
+    <header>
+      <div class="encabezado">
+        <div class="logo">
+          <img src="../img/logo_vet.png" alt="">
+          <div class="titulo_logo">
+            <h2>Clínica Veterinaria</h2>
+            <h2>SanVet</h2>
+          </div>
+        </div>
+        <h3>"Cuidamos su salud, protegemos su alegría"</h3>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./servicios.html" class="link_active">Servicios</a></li>
+          <li><a href="./productos.html">Productos</a></li>
+          <li><a href="./guarderia.html">Guardería</a></li>
+          <li><a href="./promociones.html">Promociones</a></li>
+          <!-- <li><a href="#">Iniciar sesión</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="banner">
+        <img src="../img/banner_servicios.jpg" alt="banner_servicios" class="banner_img">
+        <h2>Servicios Veterinarios</h2>
+        <p>En nuestra veterinaria ofrecemos una atención integral, profesional y amorosa para tu mascota. Contamos con un equipo capacitado y tecnología adecuada para brindar el mejor cuidado en cada etapa de su vida.</p>
+      </div>
+      <div class="contenido">
+        <h3>Nuestros servicios</h3>
+        <div class="card_tip">
+          <div class="text_card">
+            <h4>Consulta general y chequeo preventivo</h4>
+            <p>Realizamos revisiones periódicas para asegurarnos de que tu mascota esté sana, detectar posibles enfermedades a tiempo y asesorarte en su cuidado diario.</p>
+          </div>
+          <img src="../img/text_img1.jpg" alt="" class="card_img_tip">
+        </div>
+        <div class="card_tip">
+          <div class="text_card">
+            <h4>Vacunación y desparasitación</h4>
+            <p>Aplicamos esquemas de vacunación actualizados para proteger a perros y gatos de enfermedades comunes. También ofrecemos desparasitación interna y externa de manera segura y eficaz.
+            </p>
+          </div>
+          <img src="../img/servicios/cirugia.jpg" alt="" class="card_img_tip">
+        </div>
+        <h3>¿Quieres agendar una cita?</h3>
+        <p>Haz clic en el botón de abajo a la derecha y programa la visita de tu mascota. ¡Será un gusto recibirlos!</p>
+      </div>
+      <div class="pedir_cita">
+      <form action="" id="form" class="">
+        <div class="btn-salida">X</div>
+        <h2>Solicitar Cita</h2>
+        <label>Mascota</label>
+        <input type="text" placeholder="Ingrese el nombre de la mascota" required>
+        <label>Edad</label>
+        <input type="number" placeholder="Ingrese la edad de la mascota">
+        <label>Raza</label>
+        <input type="text" placeholder="Ingrese la raza de la mascota">
+        <div class="input_juntos">
+          <div class="">
+            <label>Fecha</label><br>
+            <input type="date" required>
+          </div>
+          <div class="">
+            <label>Hora</label><br>
+            <input type="time" required>
+          </div>
+        </div>
+        <label>Dueño</label>
+        <input type="text" placeholder="Ingrese el nombre del dueño de la mascota" required>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="boton_cita">
+        <p>Solicitar cita</p>
+        <button type="button" id="btn_cita"><i class="fa-solid fa-paw"></i></button>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <div class="block-1">
+        <div class="datos_principales">
+          <ul>
+            <li>
+              <p><i class="fa-solid fa-location-dot"></i> Calle 123 #45-67, Malambo, Colombia</p>
+            </li>
+            <li>
+              <p><i class="fa-solid fa-phone"></i> +57 123 456 7890</p>
+            </li>
+            <li>
+              <p><i class="fa-solid fa-envelope"></i> sanvet35@hotmail.com</p>
+            </li>
+            <li>
+              <p><i class="fa-solid fa-clock"></i> Lunes a Sábado: 8:00 AM - 6:00 PM</p>
+            </li>
+          </ul>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./guarderia.html">Guardería</a></li>
+            <li><a href="./promociones.html">Promociones</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Terminos y condiciones</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="block-2">
+        <h4>Copright&copy; SanVet 2025</h4>
+        <div class="icons_redes">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://kit.fontawesome.com/bc3dfab8e3.js" crossorigin="anonymous"></script>
+  <script type="module" src="../js/main.js"></script>
+</body>
+
+</html>

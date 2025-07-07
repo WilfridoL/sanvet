@@ -1,0 +1,76 @@
+.block {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.block h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--orange);
+}
+
+.block p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.block:nth-child(3) ul{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.block ul {
+  list-style: disc;
+  margin-left: 16px;
+  font-weight: 400;
+}
+
+.lista-doble {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.lista-doble li {
+  width: 40%;
+}
+
+.cuadrado {
+  width: 80%;
+  text-align: center;
+  background-color: var(--yellow);
+  padding: 30px 0px;
+  border-radius: 10px;
+}
+
+.cuadrado h3 {
+  font-size: 24px;
+  color: var(--text);
+}
+
+.botones {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: var(--bck);
+}
+
+.btn:nth-child(1){
+  background-color: var(--green);
+}
+
+.btn:nth-child(2) {
+  background-color: var(--orange);
+}

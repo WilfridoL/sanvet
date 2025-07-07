@@ -1,0 +1,25 @@
+footer{
+  width: 100%;
+  background: var(--green);
+  color: var(--bck);
+  padding: 20px  60px;
+}
+
+.block-1, .block-2{
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_footer img{
+  width: 180px;
+}
+.block-1 li{margin-top: 8px;}
+.block-1 .links li{text-align: right;}
+.block-1 .datos_principales i{margin-right: 8px;}
+.block-2{margin-top: 50px;}
+.block-2 .icons_redes{
+  display: inherit; 
+  gap: 8px;
+}
+.block-2 h4{font-weight: 300;}
