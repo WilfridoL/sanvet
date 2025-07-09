@@ -21,7 +21,7 @@
 .boton_cita p {
   position: absolute;
   display: none;
-  background: var(--yellow);
+  background: var(--orange);
   color: var(--bck);
   right: 40px;
   text-wrap: nowrap;
