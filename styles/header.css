@@ -48,5 +48,6 @@ nav ul{
 }
 
 nav .link_active{
-  color: var(--yellow);
+  color: var(--orange);
+  font-weight: bold;
 }

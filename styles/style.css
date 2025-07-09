@@ -43,11 +43,11 @@ a {
 
 footer a,
 header a {
-  color: var(--bck);
+  color: var(--text);
 }
 
 a:hover {
-  color: var(--yellow);
+  color: var(--orange);
   transition: all .4s ease;
 }
 
