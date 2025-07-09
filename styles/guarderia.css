@@ -60,17 +60,21 @@
   flex-wrap: wrap;
 }
 
-.btn {
+.botones .btn {
   padding: 12px 20px;
   border-radius: 5px;
   font-weight: bold;
   color: var(--bck);
 }
 
-.btn:nth-child(1){
+.botones .btn:hover{
+  color: var(--yellow);
+}
+
+.botones .btn:nth-child(1){
   background-color: var(--green);
 }
 
-.btn:nth-child(2) {
+.botones .btn:nth-child(2) {
   background-color: var(--orange);
 }

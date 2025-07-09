@@ -49,9 +49,9 @@
   right: 60px;
   z-index: 10;
 
-  &.form_active {
-    display: flex;
-  }
+}
+.pedir_cita form.form_active {
+  display: flex;
 }
 
 .pedir_cita form h2 {
